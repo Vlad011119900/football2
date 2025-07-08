@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    padding: 25px 0 29px;
+    padding: 31px 0 47px;
 }
 
 .flex{
@@ -62,6 +62,11 @@ width: 100%;
     background-color: #fff;
 }
 
+.logo{
+    display: flex;
+    gap: 8px;
+}
+
 .logo p, .contacts a {
 font-size: 14px;
 color: #5a5a5a;
@@ -79,12 +84,20 @@ color: #39930d;
 color: #5a5a5a;
 }
 
-.contacts{
+.contacts div{
+    display: flex;
     align-items: center;
 }
 
-.img-conteiner{
-    padding-bottom: 31px;
+.contacts a{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+
+.menu{
+    min-width: 300px;
 }
 
 .menu p{
