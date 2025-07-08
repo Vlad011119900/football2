@@ -37,9 +37,7 @@ h1{
     padding-bottom: 17px;
 }
 
-.logo img{
-    margin: 8px;
-}
+
 
 .img-conteiner img {
 width: 100%;
@@ -49,6 +47,7 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 
 
@@ -64,27 +63,24 @@ width: 100%;
 }
 
 .logo p, .contacts a {
-    font-size: 22px;
-    color: #5a5a5a;
-}
-
-.work{
-    font-size: 14px;
-    color: #5a5a5a;
-    font-weight: bold;
-    text-align: right;
+font-size: 14px;
+color: #5a5a5a;
 }
 
 .logo b {
-    display: block;
+display: block;
     padding: 3 0;
-    font-size: 44px;
-    color: #39930d;
+font-size: 24px;
+color: #39930d;
 }
 
 .logo i{
     font-size: 14px;
 color: #5a5a5a;
+}
+
+.contacts{
+    align-items: center;
 }
 
 .img-conteiner{
@@ -125,11 +121,17 @@ color: #343434;
     color: #fff;
 }
 
-.imgs{
-    display: flex;
-}
+
 
 footer {
     padding: 14px 15px;
+    min-width: 300px;
     background-color: #39930d;
+}
+
+.flexu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
