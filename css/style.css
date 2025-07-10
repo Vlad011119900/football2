@@ -77,13 +77,16 @@ width: 100%;
 .logo p, .contacts a {
 font-size: 14px;
 color: #5a5a5a;
+font-weight: bold;
+text-align: right;
 }
 
 .logo b {
-display: block;
+    text-transform: uppercase;
+    display: block;
     padding: 3 0;
-font-size: 24px;
-color: #39930d;
+    font-size: 24px;
+    color: #39930d;
 }
 
 .logo i{
@@ -99,6 +102,14 @@ color: #5a5a5a;
 .contacts{
     display: flex;
     gap: 29px;
+}
+
+.green-clock{
+    font-size: 14px;
+color: #5a5a5a;
+font-weight: bold;
+text-align: right;
+    gap: 10px;
 }
 
 .contacts a{
