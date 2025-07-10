@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.main_img{
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -37,7 +42,9 @@ h1{
     padding-bottom: 17px;
 }
 
-
+.main_img {
+    margin-bottom: 10px;
+}
 
 .img-conteiner img {
 width: 100%;
@@ -84,15 +91,20 @@ color: #39930d;
 color: #5a5a5a;
 }
 
-.contacts div{
-    display: flex;
+.green-clock {
+   display: flex;
     align-items: center;
+}
+
+.contacts{
+    display: flex;
+    gap: 29px;
 }
 
 .contacts a{
     display: flex;
     align-items: center;
-    gap: 29px;
+    gap: 3px;
 }
 
 
