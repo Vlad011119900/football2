@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-.main_img{
+html {
+    font-size: .8px;
+}
+
+.main_img {
     margin: 0;
     padding: 0;
 }
@@ -11,20 +15,21 @@
 header {
     display: flex;
     align-items: center;
-    padding: 25px 0;
+    padding: 25rem 0;
 }
 
-body {   
-    background-color: #f3f3f3;;
+body {
+    background-color: #f3f3f3;
+    ;
     font-family: Arial;
 }
 
 main {
-    padding: 31px 0 47px;
+    padding: 31rem 0 47rem;
 }
 
-.flex{
-    display: flex;
+.flex {
+    display: block;
     justify-content: space-between;
 }
 
@@ -36,137 +41,180 @@ ul {
     list-style: none;
 }
 
-h1{
-    font-size: 24px;
+.contacts {
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 24rem;
     color: #39930d;
-    padding-bottom: 17px;
+    padding-bottom: 17rem;
 }
 
 .main_img {
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .img-conteiner img {
-width: 100%;
+    width: 100%;
 }
 
-.images{
+.images {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 10rem;
 }
-
-
 
 .wrapper {
-    max-width: 960px;
+    max-width: 960rem;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15rem;
 }
 
-.bg-white{
+.bg-white {
     background-color: #fff;
 }
 
-.logo{
+.logo {
     display: flex;
-    gap: 8px;
+    gap: 8rem;
 }
 
-.logo p, .contacts a {
-font-size: 14px;
-color: #5a5a5a;
-font-weight: bold;
+.logo p,
+.contacts a {
+    font-size: 14rem;
+    color: #5a5a5a;
+    font-weight: bold;
 }
 
 .logo b {
     text-transform: uppercase;
     display: block;
     padding: 3 0;
-    font-size: 24px;
+    font-size: 24rem;
     color: #39930d;
 }
 
-.logo i{
-    font-size: 14px;
-color: #5a5a5a;
+.logo i {
+    font-size: 14rem;
+    color: #5a5a5a;
 }
 
 .green-clock {
-   display: flex;
-    align-items: center;
-}
-
-.contacts{
-    display: flex;
-    gap: 29px;
-}
-
-.green-clock{
-    font-size: 14px;
-color: #5a5a5a;
-font-weight: bold;
-text-align: right;
-    gap: 10px;
-}
-
-.contacts a{
     display: flex;
     align-items: center;
-    gap: 3px;
+}
+
+.contacts {
+    display: flex;
+    gap: 29rem;
+}
+
+.green-clock {
+    font-size: 14rem;
+    color: #5a5a5a;
+    font-weight: bold;
+    text-align: right;
+    gap: 10rem;
+}
+
+.contacts a {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
 }
 
 
-.menu{
-    min-width: 300px;
+.menu {
+    min-width: 250rem;
 }
 
-.menu p{
-    padding: 10px 19px;
+.menu p {
+    padding: 10rem 19rem;
     background-color: #39930d;
     color: #fff;
-    font-size: 18px;
+    font-size: 18rem;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.menu ul{
-padding: 20px;
+.menu ul {
+    padding: 20rem;
 }
 
 .menu a {
-color: #343434;
-font-size: 14px;
-line-height: 2.1em;
-text-decoration: underline;
-text-transform: uppercase;
+    color: #343434;
+    font-size: 14rem;
+    line-height: 2.1em;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .main-text p {
-max-width: 599px;
-margin-bottom: 18px;
-font-size: 14px;
-line-height: 1.5em;
-color: #343434;
+    max-width: 599rem;
+    margin-bottom: 18rem;
+    font-size: 14rem;
+    line-height: 1.5em;
+    color: #343434;
 }
 
-.footertext{
-    font-size: 14px;
+.footertext {
+    font-size: 14rem;
     color: #fff;
 }
 
-
-
 footer {
-    padding: 14px 15px;
-    min-width: 300px;
+    padding: 14rem 15rem;
+    min-width: 300rem;
     background-color: #39930d;
 }
 
-.flexu{
+.flexu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 10rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: .9px;
+    }
+
+    .contacts {
+        flex-wrap: nowrap;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 1px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 1.1px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 1.5px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    html {
+        font-size: 1.7px;
+    }
 }
