@@ -13,8 +13,8 @@ html {
 }
 
 .wrapper {
-    max-width: 968px;
-    padding: 15rem 0;
+    max-width: 968rem;
+    padding: 0 15rem;
     margin: 0 auto;
 }
 
@@ -74,11 +74,6 @@ h1 {
     gap: 15px;
     grid-template-columns: 1fr 1fr;
 }
-
-.images img {
-    min-width: 15vw;
-}
-
 
 .bg-white {
     background-color: #fff;
@@ -227,6 +222,12 @@ footer {
 
     html {
         font-size: 1px;
+    }
+
+    .images {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
