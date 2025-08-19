@@ -12,6 +12,11 @@ html {
     font-size: .8px;
 }
 
+.wrapper {
+    max-width: 290px;
+    margin: 0 auto;
+}
+
 .main_img {
     margin: 0;
     padding: 0;
@@ -73,10 +78,6 @@ h1 {
     min-width: 15vw;
 }
 
-.wrapper {
-    max-width: 960rem;
-    margin: 0 auto;
-}
 
 .bg-white {
     background-color: #fff;
@@ -216,6 +217,11 @@ footer {
 @media screen and (min-width: 1024px) {
     html {
         font-size: 1px;
+    }
+
+    .wrapper {
+        max-width: 960px;
+        margin: 0 auto;
     }
 }
 
