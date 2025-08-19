@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f3f3f3;
+    background-color: #fff;
     font-family: Arial;
 }
 
@@ -192,6 +192,15 @@ footer {
         font-size: .9px;
     }
 
+    body {
+        background-color: #fff;
+    }
+
+    .wrapper {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
     .contacts {
         flex-wrap: nowrap;
     }
@@ -215,6 +224,10 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+    body{
+        background-color: #f3f3f3;
+    }
+
     html {
         font-size: 1px;
     }
