@@ -158,7 +158,6 @@ h1 {
 }
 
 .main-text p {
-    max-width: 599rem;
     margin-bottom: 18rem;
     font-size: 14rem;
     line-height: 1.5em;
@@ -216,6 +215,10 @@ footer {
         gap: 8rem;
     }
 
+    .main_conteiner{
+        display: flex;
+        gap: 15rem;
+    }
 
     .menu {
         min-width: 300rem;
