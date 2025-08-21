@@ -213,6 +213,11 @@ footer {
         justify-content: space-between;
         gap: 10rem;
     }
+
+    .main_conteiner{
+        display: flex;
+        gap: 15px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
