@@ -26,7 +26,7 @@ html {
 header {
     display: flex;
     align-items: center;
-    padding: 25rem 0;
+    padding: 15rem 0;
 }
 
 
@@ -132,7 +132,7 @@ h1 {
 }
 
 .menu {
-    min-width: 250rem;
+    min-width: 300rem;
     margin-bottom: 20px;
 }
 
@@ -183,6 +183,14 @@ footer {
     gap: 10rem;
 }
 
+@media screen and (min-width: 450px) {
+    .images {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10rem;
+    }
+}
 
 @media screen and (min-width: 768px) {
     html {
@@ -204,25 +212,20 @@ footer {
 
     .logo {
         display: flex;
+        margin-bottom: 0;
         gap: 8rem;
     }
 
 
     .menu {
-        min-width: 250rem;
+        min-width: 300rem;
         margin-bottom: 0;
     }
 
     .images {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10rem;
-    }
-
-    .main_conteiner {
-        display: flex;
+        display: grid;
         gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -230,15 +233,13 @@ footer {
     body {
         background-color: #f3f3f3;
     }
-
+    
     html {
         font-size: 1px;
     }
-
-    .images {
-        display: grid;
-        gap: 15px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    .main-text p{
+        min-width: 611px;
     }
 }
 
@@ -252,6 +253,14 @@ footer {
     html {
         font-size: 1.5px;
     }
+    
+        .logo img{
+            min-width: 100px;
+        }
+    
+        .img4k img {
+            min-width: 40px;
+        }
 }
 
 @media screen and (min-width: 2200px) {
