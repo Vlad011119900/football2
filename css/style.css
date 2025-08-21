@@ -131,9 +131,9 @@ h1 {
     gap: 3rem;
 }
 
-
 .menu {
     min-width: 250rem;
+    margin-bottom: 20px;
 }
 
 .menu p {
@@ -207,6 +207,12 @@ footer {
         gap: 8rem;
     }
 
+
+    .menu {
+        min-width: 250rem;
+        margin-bottom: 0;
+    }
+
     .images {
         display: flex;
         align-items: center;
@@ -214,7 +220,7 @@ footer {
         gap: 10rem;
     }
 
-    .main_conteiner{
+    .main_conteiner {
         display: flex;
         gap: 15px;
     }
